@@ -1,0 +1,58 @@
+/* Стилі специфічні для сторінки послуг */
+.services-hero {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    padding: 100px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/services-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.services-list {
+    padding: 60px 0;
+}
+
+.service-category {
+    margin-bottom: 50px;
+}
+
+.service-category h2 {
+    font-size: 2rem;
+    color: var(--primary-dark);
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-light);
+}
+
+.service-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.service-item {
+    background-color: var(--light-text);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.service-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+}
+
+.service-price {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .service-items {
+        grid-template-columns: 1fr;
+    }
+}
