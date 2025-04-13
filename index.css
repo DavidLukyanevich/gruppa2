@@ -1,13 +1,15 @@
 /* Стилі специфічні для головної сторінки */
 .hero {
     background-color: var(--primary-color);
-    color: var(--light-text);
+    color:	 #ffe6ff;
     padding: 100px 0;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero-bg.jpg');
+
     background-size: cover;
     background-position: center;
+
 }
+
 
 .hero-title {
     font-size: 3rem;

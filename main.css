@@ -102,20 +102,11 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+    text-align: center;
 }
 
 .footer-info p {
     margin-bottom: 10px;
-}
-
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer-links a {
-    transition: color 0.3s;
 }
 
 .footer-links a:hover {
