@@ -95,3 +95,27 @@
         padding: 30px 20px;
     }
 }
+
+.footer{
+    background-color: #86A397;
+    border: #6d857b solid 5px
+}
+
+.hero {
+    background-color: #E1B07E;
+    color: var(--light-text);
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border: solid hsl(30, 29%, 50%);
+    font-size: 25px;
+}
+
+.main{
+    background-image: linear-gradient(to bottom, #E1B07E 60%, #86A397);
+}
+
+.container2{
+    left: 200px;
+}
