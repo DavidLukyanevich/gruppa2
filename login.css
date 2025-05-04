@@ -5,7 +5,10 @@
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 200px);
-    margin-left: 375px;
+}
+
+.header {
+    background-image: linear-gradient(to right, #938A7B, #CBC0AD 75%);
 }
 
 .login-form {
@@ -89,18 +92,6 @@
 .register-link a {
     color: var(--primary-color);
     font-weight: 600;
-}
-
-.header{
-    background-image: linear-gradient(to right,#938A7B 0%, #CBC0AD 75%);
-}
-
-.footer{
-    background-image: linear-gradient(to right, #CBC0AD 0%, #938A7B 75%);
-}
-
-body{
-background-image: linear-gradient(to bottom, #86A397 0%, #608173 75%);
 }
 
 @media (max-width: 480px) {

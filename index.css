@@ -1,15 +1,13 @@
 /* Стилі специфічні для головної сторінки */
 .hero {
-    background-color: var(--primary-color);
-    color:	 #ffe6ff;
+    background-color: #E1B07E;
+    color: var(--light-text);
     padding: 100px 0;
     text-align: center;
-
     background-size: cover;
     background-position: center;
-
+    border: solid hsl(30, 29%, 50%);
 }
-
 
 .hero-title {
     font-size: 3rem;
@@ -18,7 +16,7 @@
 
 .hero-subtitle {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 400px;
 }
 
 .about {
@@ -69,4 +67,29 @@
     .hero-title {
         font-size: 2rem;
     }
+}
+
+
+
+
+.logo{
+    background-size: 200%;
+}
+
+
+
+.footer{
+    background-color: #86A397;
+}
+
+
+
+html{
+    border: solid 10px #678075;
+}
+
+
+.header-inner{
+    border-top: 10px #678075;
+
 }
